@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 
 def greet(name: str) -> srt:
@@ -7,3 +8,7 @@ def greet(name: str) -> srt:
 
 if __name__ == "__main__":
     print(greet("Студент")) 
+
+def farewell(name: str) -> str:
+    """Повертає прощальне повідомлення."""
+    return f"До побачення, {name}!"
